@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+input:focus {outline:none;}
+
+input:hover {
+    background-color: #ff9f25;
+    box-shadow: 0 6px 0 #ff8326;
