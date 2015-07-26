@@ -1,0 +1,365 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/animals.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#game {
+    position: absolute;
+    height: 100%;  
+    width: 100%;
+    margin: 0;
+    padding: 0;  
+}
+
+#start {
+    position: absolute;
+    height: 100%;  
+    width: 100%;
+    margin: 0;
+    padding: 0;  
+}
+
+#level1 {
+    position: absolute;
+    background-color: white;
+    height: 100%;  
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;  
+}
+
+#level2 {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+#level3 {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+#level4 {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+#level5 {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+#level6 {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+#end {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/confetti.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inner-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.question {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5%;
+    margin: 0;
+}
+
+.circles {
+    text-align: center;
+}
+
+/*level 1 colors*/
+.red1 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.blue1 {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.green1 {
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+/*level 2 colors*/
+.blue2 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.yellow2 {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+.green2 {
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: green;
+}
+
+/*level 3 colors*/
+.red3 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.purple3 {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: purple;
+}
+
+.orange3 {
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #ff8e00;
+}
+
+/*level 4 colors*/
+.blue4 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.orange4 {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #ff8e00;
+}
+
+.red4 {
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+/*level 5 colors*/
+.yellow5 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+.blue5 {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+.purple5 {
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: purple;
+}
+
+/*level 6 colors*/
+.yellow6 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+.red6 {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+.purple6 {
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: purple;
+}
+
+p.end {
+    position: relative;
+    top: 30%;
+    left: auto;
+    right: auto;
+    font-size: 80px;
+    color: black;
+    font-weight: 600;
+}
+
+input.play {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: 20%;
+    font-size: 50px;
+    background-color: #ff8e00;
+    border: 1px solid #ff6e00;
+    padding: 5px;
+    border-radius: 30%;
+    box-shadow: 0 6px 0 #ff6d00;
+    text-shadow: 0 2px 2px;
+    cursor:pointer;
+    
+}
+
+input.playAgain {
+    font-size: 28px;
+    background-color: #ff8e00;
+    border: 1px solid #ff6e00;
+    padding: 5px;
+    border-radius: 30%;
+    box-shadow: 0 6px 0 #ff6d00;
+    text-shadow: 0 2px 2px;
+    cursor:pointer;
+}
+
+/*      effect when button is pressed*/
+
+input:hover {
+    background-color: #ff9f25;
+    box-shadow: 0 6px 0 #ff8326;
+}
+
+input.play:active {
+    top: 21%;
+    box-shadow: 0 0 0;
+    background-color: #e07c00;
+}
+
+input.playAgain:active {
+    margin-top: 1px;
+    box-shadow: 0 0 0;
+    background-color: #e07c00;
+}
+
+input:focus {outline:none;}
