@@ -1,7 +1,4 @@
 $(document).ready(function() {
-    
-    var originalState = $("#game").clone();
-    
 //  effects for all wrong colors for levels 1,3, and 5.
     $('#level1 .wrong, #level3 .wrong, #level5 .wrong').click(function() {
         $(this).effect('explode');
@@ -62,8 +59,9 @@ $(document).ready(function() {
     
 //  button to restart the game
     $('.playAgain').click(function() {
-//  function to restart the game
-        $('#game').replaceWith(originalState);
-        $('#level1').slideDown('slow');
+//  reloads the website to resets the game
+        $('#end').slideUp('slow');
+        $('#start').delay(500).slideDown('slow');
+        window.setTimeout('location.reload()', 1000);
     });
 });
